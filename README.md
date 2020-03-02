@@ -25,6 +25,6 @@ lottery_manage_system stand_alone version upgraded to C/S version
 
 # 4. the login name and password of nottery is "nottery" and "1"
 
-# 5. the user name you can register one for youself
+# 5. the user acount you can register one for youself
 
 # 6. the *.bin file is essential when the first time execute the sever program
