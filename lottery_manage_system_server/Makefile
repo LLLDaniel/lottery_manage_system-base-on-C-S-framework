@@ -15,7 +15,7 @@ object =obj/user_link.o obj/user_handler.o obj/common.o obj/admin.o  obj/user_lo
 
 flag = -lpthread -g -Wall -I include
 
-bin/lottery:src/main.c $(object)
+bin/server:src/main.c $(object)
 	$(cc) src/main.c $(object) -o $@ $(flag)
 obj/user_link.o:src/user_link.c
 	$(cc) -c $< -o $@ $(flag)
